@@ -97,24 +97,54 @@
 ![img](http://img.mukewang.com/543b4cae0001b34304300350.jpg)
 
 - 块级元素
+
 - 内联元素
+
 - 内块元素
+
 - display:none;
+
 - padding(top, bottom, right, left), margin, border,
+
 - border
   - width, style, color
   - -top, right, left,bottom
   - -radius: how to  draw a circle
+  
 - flow模型
   - 块元素上到下，内元素左到右
+  
 - float模型
   - 使元素浮动在同一行、列
+  
 - layer
   - position: absolute 相对浏览器定位，改变所在layout
   - position: relative 相对自己定位，不改变所在layout
+  
 - 相对元素定位
   - father.position:relative; child.position:absolute![image-20210721195404537](CSS What I learned.assets/image-20210721195404537-1626868447849.png)
+  
 - 弹性盒模型
-  - display:flex
-  - justify-content: flex-start, flex-end, center, space-between, space-around //x轴
-  - align-items: flex-start, flex-end, center, baseline, stretch(?)
+  
+  - flexbox使user可以创建横向/纵向上的一维布局，可以自由收缩
+    
+  - flex container and flex items
+  
+    ![img](https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071004.png)
+  
+    
+  
+  - flex-flow : <flex-direction> || <flex-wrap> //default value: row nowrap
+  
+  - #### **flex items**
+  
+  - flex-grow: 存在剩余空间时，items放大的比例，默认为0。
+  
+  - flex-shrink: 剩余空间不够时，items缩小的比例
+  
+  - flex: <flex-grow> <flex-shrink> <flex-basis> 
+  
+    flex有两个浏览器自动 推算值的属性: auto (1 1 auto) 和none（0 0 auto）
+
+- Grid布局
+  - 
