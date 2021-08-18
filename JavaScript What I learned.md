@@ -1,5 +1,14 @@
 #### **JavaScript What I learned**
 
+**DOM 常用methods**
+
+```javascript
+var em = document.createElement('em'); // create a new em element
+var para = document.querySelector('p'); // reference an existing p element
+em.textContent = 'Hello there!'; // give em some text content
+para.appendChild(em); // embed em inside para
+```
+
 **Object**
 
 ```javascript
