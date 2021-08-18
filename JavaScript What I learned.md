@@ -88,10 +88,14 @@ MySubClass.prototype.method = function(){
     MyClass.prototype.method.call(this);
 }
 ```
+<img src="https://github.com/lanranranM/fontend-studynote/blob/main/JavaScript%20What%20I%20learned.assets/image-20210818104551350.png?raw=true">
 
 ![image-20210818104551350](JavaScript What I learned.assets/image-20210818104551350.png)
 
-![image-20210818095438451](JavaScript What I learned.assets/image-20210818095438451.png)
+<img src="https://github.com/lanranranM/fontend-studynote/blob/main/JavaScript%20What%20I%20learned.assets/image-20210818095438451.png?raw=true">
+
+![image-20210818095438451](JavaScript-What-I-learned.assets/image-20210818095438451.png)
+<img src="https://github.com/lanranranM/fontend-studynote/blob/main/JavaScript%20What%20I%20learned.assets/image-20210818100417254.png?raw=true">
 
 ![image-20210818100417254](JavaScript What I learned.assets/image-20210818100417254.png)
 
@@ -101,6 +105,7 @@ two steps to create an instance
 - initialize the instance's data by initialization function constructor
 
 instances are about data, prototype are about methods --- the classes are about methods
+<img src="https://github.com/lanranranM/fontend-studynote/blob/main/JavaScript%20What%20I%20learned.assets/image-20210818101815275.png?raw=true">
 
 ![image-20210818101815275](JavaScript What I learned.assets/image-20210818101815275.png)
 
@@ -125,6 +130,7 @@ instances are about data, prototype are about methods --- the classes are about 
 
 prototype chain
 
+<img src="https://github.com/lanranranM/fontend-studynote/blob/main/JavaScript%20What%20I%20learned.assets/image-20210818130231994.png?raw=true">
 ![image-20210818130231994](JavaScript What I learned.assets/image-20210818130231994.png)
 
 
